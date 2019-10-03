@@ -28,6 +28,10 @@ public class ModelAndView {
         return Collections.unmodifiableMap(model);
     }
 
+    public void render() {
+
+    }
+
     public View getView() {
         return view;
     }
